@@ -22,6 +22,9 @@ internal ui: this is so you can actually execute scripts with the built in edito
 
 synapse x is recommended, as that's what i'll be using.
 
+SCRIPT PREPARATIONS:
+on the alt portion of the script, change the mainPlr variable from "xyzdrippy" to the username of your "main" account. THIS IS IMPORTANT!
+
 STEP 1:
 before running roblox, always make sure to run multiple rbx. if you close out all your roblox instances, relaunch multiple rbx.
 
