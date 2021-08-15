@@ -39,7 +39,7 @@ local animIds =
 {
 		"rbxassetid://204328711", --dino walk
 		"rbxassetid://126753849", --loop punch
-		"rbxassetid://27789359", -- pokie dance shit USED FOR LEVI PART
+		"rbxassetid://27789359", -- pokie dance USED FOR LEVI PART
 		"rbxassetid://121572214",--float head anim
 		"rbxassetid://313762630", -- levitate anim
 		"rbxassetid://180611870", --SCREAM anim
