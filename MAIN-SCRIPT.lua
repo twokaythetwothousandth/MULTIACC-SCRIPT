@@ -16,7 +16,7 @@ local animIds =
 {
     "rbxassetid://204328711", --dino walk
     "rbxassetid://126753849", --loop punch
-    "rbxassetid://27789359", -- pokie dance shit USED FOR LEVI PART
+    "rbxassetid://27789359", -- pokie dance USED FOR LEVI PART
     "rbxassetid://121572214",--float head anim
     "rbxassetid://313762630", -- levitate anim
     "rbxassetid://180611870", --SCREAM anim
@@ -68,7 +68,7 @@ local function runAnim(ifPunch, key, animId, strFadeTime, endFadeTime, speed, ti
 	    headTrack:Play(0.1,1,0)         
 	    dinoTrack:Play(0.1,1,0) 
 	    hum.WalkSpeed = 1
-        --msgReq:FireServer("MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA ", "All")
+        
 	    repeat 
 	    	dinoTrack.TimePosition = 0
 	    	aniNoDelayFunc(aniDel)
@@ -81,7 +81,7 @@ local function runAnim(ifPunch, key, animId, strFadeTime, endFadeTime, speed, ti
 	    punchTrack:Stop(0.1)   
 	    headTrack:Stop(0)
 	    hum.WalkSpeed = ws
-	    --msgReq:FireServer("MUDA!", "All")
+	    
 	    wait(0.2)
 	    if hum.MoveDirection ~= Vector3.new(0,0,0) then
 	        debounce(runAnim(false,"idle",animIds[11],0.25,0.1,1,0,true))
