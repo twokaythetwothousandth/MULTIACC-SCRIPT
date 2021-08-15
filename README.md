@@ -66,3 +66,4 @@ KEYBINDS:
 
 Q: float
 E: looppunch
+R: scream (broken)
